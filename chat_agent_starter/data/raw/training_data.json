@@ -1,0 +1,86 @@
+{
+  "examples": [
+    {
+      "text": "How do I reset my password?",
+      "intent": "password_reset"
+    },
+    {
+      "text": "I forgot my password",
+      "intent": "password_reset"
+    },
+    {
+      "text": "Help me sign in",
+      "intent": "login_help"
+    },
+    {
+      "text": "I cannot log into my account",
+      "intent": "login_help"
+    },
+    {
+      "text": "What are your support hours?",
+      "intent": "support_hours"
+    },
+    {
+      "text": "When is customer service open?",
+      "intent": "support_hours"
+    },
+    {
+      "text": "How do I upgrade my plan?",
+      "intent": "billing_upgrade"
+    },
+    {
+      "text": "I want to change to a higher plan",
+      "intent": "billing_upgrade"
+    },
+    {
+      "text": "How do I cancel?",
+      "intent": "cancel_subscription"
+    },
+    {
+      "text": "Please cancel my subscription",
+      "intent": "cancel_subscription"
+    },
+    {
+      "text": "Hello",
+      "intent": "greeting"
+    },
+    {
+      "text": "Hi there",
+      "intent": "greeting"
+    },
+    {
+      "text": "Thanks",
+      "intent": "thanks"
+    },
+    {
+      "text": "Thank you for the help",
+      "intent": "thanks"
+    }
+  ],
+  "responses": {
+    "password_reset": [
+      "To reset your password, go to the sign-in page and select 'Forgot password'. Follow the email link to create a new password."
+    ],
+    "login_help": [
+      "If you cannot sign in, first confirm your email and password are correct. If that fails, use the password reset flow and check whether your browser is blocking cookies."
+    ],
+    "support_hours": [
+      "Support is available Monday through Friday from 9:00 AM to 6:00 PM local time."
+    ],
+    "billing_upgrade": [
+      "You can upgrade from the Billing page in Account Settings. Choose the new plan and confirm the change."
+    ],
+    "cancel_subscription": [
+      "You can cancel from Account Settings > Billing > Subscription. Your plan will remain active until the end of the current billing period."
+    ],
+    "greeting": [
+      "Hi \u2014 how can I help you today?"
+    ],
+    "thanks": [
+      "You're welcome."
+    ],
+    "__fallback__": [
+      "I\u2019m not fully confident about that yet. Could you rephrase it, or ask about login, billing, password resets, or support hours?"
+    ]
+  }
+}
