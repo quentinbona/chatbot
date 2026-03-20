@@ -18,7 +18,7 @@ This repository is designed as an **MVP foundation**: small enough to understand
 ## Repository layout
 
 ```text
-chat_agent_starter/
+chatbot/
 ├── .env.example
 ├── Dockerfile
 ├── README.md
