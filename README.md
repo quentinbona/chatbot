@@ -243,7 +243,7 @@ Run tests with:
 pytest
 ```
 
-## Roadmap
+## My planned roadmap for this project
 
 ### Phase 2
 
